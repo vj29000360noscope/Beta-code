@@ -10,9 +10,9 @@ public class camera {
 	public void startCam(){
 		
 	UsbCamera camera = CameraServer.getInstance().startAutomaticCapture();
-	camera.setResolution(1280, 720);
+	/*camera.setResolution(1280, 720);
 	camera.setFPS(40);
-	
+	*/
 	}
 
 	
